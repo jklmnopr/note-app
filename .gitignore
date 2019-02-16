@@ -1,0 +1,9 @@
+# npm files
+node_modules
+dist/
+.cache
+*.log*
+
+# IDE
+.idea
+.vscode

@@ -1,0 +1,85 @@
+.Card {
+  background: rgb(247, 247, 247);
+  background: linear-gradient(
+    to bottom,
+    rgba(247, 247, 247, 1) 0%,
+    rgba(242, 242, 242, 1) 47%,
+    rgba(238, 238, 238, 1) 100%
+  );
+  border-left: 4px solid #39d0cb;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px rgba(56, 60, 67, 0.07),
+    0 8px 14px 1px rgba(56, 60, 67, 0.15);
+
+  &__title {
+    font-weight: 400;
+  }
+
+  &:hover {
+    .Card__controls {
+      opacity: 1;
+    }
+  }
+
+  &__controls {
+    box-shadow: 0 0 0 1px rgba(56, 60, 67, 0.07),
+      0 8px 14px 1px rgba(56, 60, 67, 0.15);
+    border: 1px solid #e0e0e0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    position: relative;
+
+    &:hover {
+      img {
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  &__content {
+    max-height: 80px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  &--red {
+    border-left: 4px solid #f06a69;
+
+    .Card__title {
+      color: #f06a69;
+    }
+  }
+
+  &--blue {
+    border-left: 4px solid #29aee9;
+
+    .Card__title {
+      color: #29aee9;
+    }
+  }
+
+  &--green {
+    border-left: 4px solid #a0d688;
+
+    .Card__title {
+      color: #a0d688;
+    }
+  }
+
+  &--orange {
+    border-left: 4px solid #ff987f;
+
+    .Card__title {
+      color: #ff987f;
+    }
+  }
+
+  &--purple {
+    border-left: 4px solid #d484dd;
+
+    .Card__title {
+      color: #d484dd;
+    }
+  }
+}

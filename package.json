@@ -1,0 +1,32 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "components": "^0.1.0",
+    "index": "^0.4.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "src": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.3.1",
+    "eslint": "^5.14.0",
+    "eslint-plugin-react": "^7.12.4",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html/",
+    "qa": "eslint src/ --ext .js --ext .jsx",
+    "prettier": "prettier --write 'src/**/*.{js,jsx}'"
+  }
+}

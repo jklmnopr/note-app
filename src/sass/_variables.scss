@@ -1,0 +1,16 @@
+$primary: #46cffb;
+
+$spacing-interval: (0, 2, 4, 8, 12, 16, 24, 32, 40, 48, 56);
+$spacers: (
+  0: nth($spacing-interval, 1) + px,
+  1: nth($spacing-interval, 2) + px,
+  2: nth($spacing-interval, 3) + px,
+  3: nth($spacing-interval, 4) + px,
+  4: nth($spacing-interval, 5) + px,
+  5: nth($spacing-interval, 6) + px,
+  6: nth($spacing-interval, 7) + px,
+  7: nth($spacing-interval, 8) + px,
+  8: nth($spacing-interval, 9) + px,
+  9: nth($spacing-interval, 10) + px,
+  10: nth($spacing-interval, 11) + px
+);

@@ -1,0 +1,22 @@
+.btn-primary {
+  background: rgb(70, 207, 251);
+  background: linear-gradient(
+    to bottom,
+    rgba(70, 207, 251, 1) 0%,
+    rgba(83, 203, 241, 1) 49%,
+    rgba(32, 172, 247, 1) 100%
+  );
+  color: $white;
+  font-size: 14px;
+
+  &:hover {
+    color: $white;
+    background: rgb(32, 172, 247);
+    background: linear-gradient(
+      to bottom,
+      rgba(32, 172, 247, 1) 0%,
+      rgba(83, 203, 241, 1) 51%,
+      rgba(70, 207, 251, 1) 100%
+    );
+  }
+}
