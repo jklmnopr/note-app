@@ -8,3 +8,9 @@ This is the Add notes application.
 2. Run `yarn dev` to start app locally 
 3. Go to `localhost:1234`, you should see the App up and running.
 
+
+## Scripts
+
+* QA:
+  * `yarn lint` - lint all js and jsx files
+  * `yarn format` - prettify all files

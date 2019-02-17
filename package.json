@@ -26,7 +26,7 @@
   "scripts": {
     "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html/",
-    "qa": "eslint src/ --ext .js --ext .jsx",
-    "prettier": "prettier --write 'src/**/*.{js,jsx}'"
+    "lint": "eslint src/ --ext .js --ext .jsx",
+    "format": "prettier --write 'src/**/*.{js,jsx}'"
   }
 }
